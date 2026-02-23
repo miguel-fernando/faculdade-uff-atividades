@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de listas</title>
+        <style>
+
+            body {
+                font-size: 25px;
+            }
+            h1 {
+                margin-bottom: 0;
+            }
+            .data-fonte {
+                font-style: italic;
+                display: block;
+            }
+            .disc {
+                list-style-type: disc;
+            }
+            .square {
+                list-style-type: square;
+            }
+            .linha-separadora {
+                height: 5px;
+                background-color: black;
+            }
+            .linha-pontilhada {
+                border-top: 3px dotted black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Curso de Web</h1>
+        <span class="data-fonte">Ementa</span>
+        <hr class="linha-separadora">
+        <ol type="1">
+            <li>Introdução a Internet</li>
+            <ul class="disc">
+                <li>O que é a Internet</li>
+                <li>Como se conectar a Internet</li>
+                <li>Quanto custa criar uma home page.</li>
+            </ul>
+            <hr class="linha-pontilhada">
+            <li>Conceitos básicos da linguagem html</li>
+            <ul class="square">
+                <li>Comandos básicos</li>
+                <li>Criando links com outras páginas</li>
+                <li>Formatando o texto</li>
+            </ul>
+            <hr class="linha-pontilhada">
+            <li>Tópicos avançados da linguagem html</li>
+            <ul>
+                <li>Tabelas</li>
+                <li>Formulários</li>
+                <li>Mapas de imagem</li>
+            </ul>
+        </ol>
+    </body>
+</html>
