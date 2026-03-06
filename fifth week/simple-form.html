@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário simples</title>
+    </head>
+    <body bgcolor="#DDFFFF">
+        <form method="post" action="mailto:miguelfernandodesouza8@gmail.com">
+            <p>
+                Se voce tem uma pagina relacionada a temas deste
+                curso, ou visitou uma pagina que ache interessante,
+                contribua apresentando este link para incluirmos aos
+                nossos.
+            </p>
+            <p>
+                Seu email:
+                <input type="text" name="Seu nome" size="30">
+            </p>
+            <p>
+                Qual o endereço do site?
+                <input type="text" name="homepage" value="http://" size="50" maxlength="100">
+            </p>
+            <p>
+                sexo:
+                M <input type="radio" name="sex" value="M">
+                F <input type="radio" name="sex" value="F">
+            </p>
+            <p>
+                De onde voce vem?
+                Brasil <input type="checkbox" name="contry" value="Brasil">
+                Portugal <input type="checkbox" name="contry" value="Portugal">
+                Cabo Verde <input type="checkbox" name="contry" value="Cabo Verde">
+                Angola <input type="checkbox" name="contry" value="Angola">
+                Mocambique <input type="checkbox" name="contry" value="Mocambique">
+                Timor Leste <input type="checkbox" name="contry" value="Timor Leste">
+            </p>
+            <p>
+                Seu interesse neste tema se relaciona a:
+                <select name="interesse">
+                    <option value="curiosidade">curiosidade
+                    <option value="pesquisa">pesquisa
+                    <option value="programas">programas
+                    <option value="trabalhos">trabalhos
+                    <option value="imagens">imagens
+                    <option value="aplicacao">aplicacao
+                    <option value="outros">outros
+                </select>
+            </p>
+            <p>
+                Gostaria de mandar uma mensagem?
+                <textarea name="message" rows="5" cols="70">
+                    por favor escreva aqui o seu comentario
+                </textarea>
+            </p>
+
+            <input type="reset" value="limpar">
+            <input type="submit" value="enviar">
+            <input type="hidden" name="mail" value="miguelfernandodesouza8@gmail.com">
+        </form>
+    </body>
+</html>
